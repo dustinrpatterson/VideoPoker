@@ -1,0 +1,28 @@
+{
+  "name": "video-poker",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "account.js",
+  "dependencies": {
+    "gulp-mocha": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "mock-local-storage": "^1.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustinrpatterson/VideoPoker.git"
+  },
+  "author": "Dustin Patterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dustinrpatterson/VideoPoker/issues"
+  },
+  "homepage": "https://github.com/dustinrpatterson/VideoPoker#readme"
+}
