@@ -27,7 +27,7 @@ test.describe('VideoPoker App', function() {
 
         driver.findElements(selenium.By.id('bet'))
             .then(function(elements) {
-                expect(elements.length).to.equal(1);
+                expect(elements.length).to.equal(1); 
             });
     });
 });
