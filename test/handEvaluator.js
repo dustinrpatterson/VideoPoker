@@ -4,6 +4,7 @@ var Chai = require ('chai');
 var expect = Chai.expect;
 
 var storage = require('mock-local-storage')
+// The line below directs what file you want to look at for unit testing.
 var code = fs.readFileSync('./pokerhand.js');
 
 vm.runInThisContext(code);
